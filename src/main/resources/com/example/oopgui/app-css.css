@@ -1,0 +1,161 @@
+.root {
+    -gradient-color: linear-gradient(#05b6ef, lightblue);
+    -bg-color: white;
+
+
+}
+
+.button {
+    -fx-background-color : null;
+}
+#video-call-image {
+
+
+
+    -height: 20;
+    -width: 26;
+
+    -fx-min-height: -height;
+    -fx-min-width: -width;
+    -fx-max-height: -height;
+    -fx-max-width: -width;
+
+    -fx-shape: "M5.5 7H15.5C16.3284 7 17 7.67157 17 8.5V10.5L19.2764 9.3618C19.6088 9.19558 20 9.43733 20 9.80902V15.2785C20 15.6276 19.6513 15.8692 19.3244 15.7467L17 14.875V16.5C17 17.3284 16.3284 18 15.5 18H5.5C4.67157 18 4 17.3284 4 16.5V8.5C4 7.67157 4.67157 7 5.5 7Z";
+    /*-fx-background-color: #f19b4c;*/
+    -fx-background-color: gray;
+}
+
+#chat-setting-image {
+
+    -height: 25;
+    -width: 10;
+
+    -fx-min-height: -height;
+    -fx-min-width: -width;
+    -fx-max-height: -height;
+    -fx-max-width: -width;
+
+    -fx-shape: "M20,44c0-3.3,2.7-6,6-6s6,2.7,6,6s-2.7,6-6,6S20,47.3,20,44z M20,26c0-3.3,2.7-6,6-6s6,2.7,6,6s-2.7,6-6,6 S20,29.3,20,26z M20,8c0-3.3,2.7-6,6-6s6,2.7,6,6s-2.7,6-6,6S20,11.3,20,8z";
+    /*-fx-background-color: #f19b4c;*/
+    -fx-background-color: gray;
+}
+#content {
+    -fx-background-color: derive(lightblue, 75%);
+    -fx-padding: 5;
+    -fx-background-radius: 10;
+}
+#my-message {
+    -fx-background-color: -gradient-color;
+    -fx-background-radius: 10 0 10 10;
+
+}
+#your-message {
+    -fx-background-radius: 0 10 10 10;
+    -fx-background-color: white;
+}
+#call-image {
+    -height: 20;
+    -width: 20;
+
+    -fx-min-height: -height;
+    -fx-min-width: -width;
+    -fx-max-height: -height;
+    -fx-max-width: -width;
+
+    -fx-shape: "M0 10.375c0 0.938 0.344 1.969 0.781 3.063s1 2.125 1.438 2.906c1.188 2.063 2.719 4.094 4.469 5.781s3.813 3.094 6.125 3.938c1.344 0.531 2.688 1.125 4.188 1.125 0.75 0 1.813-0.281 2.781-0.688 0.938-0.406 1.781-1.031 2.094-1.781 0.125-0.281 0.281-0.656 0.375-1.094 0.094-0.406 0.156-0.813 0.156-1.094 0-0.156 0-0.313-0.031-0.344-0.094-0.188-0.313-0.344-0.563-0.5-0.563-0.281-0.656-0.375-1.5-0.875-0.875-0.5-1.781-1.063-2.563-1.469-0.375-0.219-0.625-0.313-0.719-0.313-0.5 0-1.125 0.688-1.656 1.438-0.563 0.75-1.188 1.438-1.625 1.438-0.219 0-0.438-0.094-0.688-0.25s-0.5-0.281-0.656-0.375c-2.75-1.563-4.594-3.406-6.156-6.125-0.188-0.313-0.625-0.969-0.625-1.313 0-0.406 0.563-0.875 1.125-1.375 0.531-0.469 1.094-1.031 1.094-1.719 0-0.094-0.063-0.375-0.188-0.781-0.281-0.813-0.656-1.75-0.969-2.656-0.156-0.438-0.281-0.75-0.313-0.906-0.063-0.094-0.094-0.219-0.125-0.375s-0.094-0.281-0.125-0.406c-0.094-0.281-0.25-0.5-0.406-0.625-0.156-0.063-0.531-0.156-0.906-0.188-0.375 0-0.813-0.031-1-0.031-0.094 0-0.219 0-0.344 0.031h-0.406c-1 0.438-1.719 1.313-2.25 2.344-0.5 1.031-0.813 2.188-0.813 3.219z";
+    /*-fx-background-color: #f19b4c;*/
+    -fx-background-color: gray;
+}
+
+#header {
+    -fx-padding: 5;
+
+    -fx-background-color: -bg-color;
+}
+#online-status-image {
+
+    -height: 10;
+    -width: 10;
+
+    -fx-min-height: -height;
+    -fx-min-width: -width;
+    -fx-max-height: -height;
+    -fx-max-width: -width;
+
+    -fx-shape: "M12 9.5C13.3807 9.5 14.5 10.6193 14.5 12C14.5 13.3807 13.3807 14.5 12 14.5C10.6193 14.5 9.5 13.3807 9.5 12C9.5 10.6193 10.6193 9.5 12 9.5Z";
+    /*-fx-background-color: #f19b4c;*/
+    -fx-background-color: green;
+}
+#back-button {
+    -height:10;
+    -width:10;
+    -fx-background-radius: 10;
+}
+#background {
+    -fx-background-radius: 10;
+    -fx-background-color: -bg-color;
+    -fx-padding: 10;
+}
+#back-button-image {
+    -height: 15;
+    -width: 10;
+
+    -fx-min-height: -height;
+    -fx-min-width: -width;
+    -fx-max-height: -height;
+    -fx-max-width: -width;
+
+    -fx-shape: "M38,52a2,2,0,0,1-1.41-.59l-24-24a2,2,0,0,1,0-2.82l24-24a2,2,0,0,1,2.82,0,2,2,0,0,1,0,2.82L16.83,26,39.41,48.59A2,2,0,0,1,38,52Z";
+    /*-fx-background-color: #f19b4c;*/
+    -fx-background-color: gray;
+}
+#file-button-image {
+    -height: 20;
+    -width: 15;
+
+    -fx-min-height: -height;
+    -fx-min-width: -width;
+    -fx-max-height: -height;
+    -fx-max-width: -width;
+
+    -fx-shape: "M176,109 C174.896,109 174,108.104 174,107 L174,103 L180,109 L176,109 L176,109 Z M174,101 L174,101.028 C173.872,101.028 160,101 160,101 C157.791,101 156,102.791 156,105 L156,129 C156,131.209 157.791,133 160,133 L178,133 C180.209,133 182,131.209 182,129 L182,111 L182,109 L174,101 L174,101 Z";
+    /*-fx-background-color: #f19b4c;*/
+    -fx-background-color: gray;
+}
+#emoji-button-image {
+
+    -height: 20;
+    -width: 20;
+
+    -fx-min-height: -height;
+    -fx-min-width: -width;
+    -fx-max-height: -height;
+    -fx-max-width: -width;
+
+    -fx-shape: "M50.1,26c0,13.3-10.8,24.1-24.1,24.1C12.7,50.1,1.9,39.3,1.9,26C1.9,12.7,12.7,1.9,26,1.9 C39.3,1.9,50.1,12.7,50.1,26z M18.3,15.8c-2.4,0-4.3,1.9-4.3,4.3s1.9,4.3,4.3,4.3c2.4,0,4.3-1.9,4.3-4.3S20.7,15.8,18.3,15.8z M33.8,15.8c-2.4,0-4.3,1.9-4.3,4.3s1.9,4.3,4.3,4.3c2.4,0,4.3-1.9,4.3-4.3S36.2,15.8,33.8,15.8z M33.6,32.5c-2,1.8-4.7,2.8-7.6,2.8 c-2.8,0-5.4-1-7.5-2.7l-0.9-0.8c-0.3-0.2-0.5-0.3-1.1-0.3c-1.1,0-1.9,0.9-1.9,1.9c0,0.5,0.2,1,0.6,1.4l0.7,0.6 c2.7,2.4,6.3,3.8,10.1,3.8c3.9,0,7.5-1.5,10.2-3.9l0.5-0.5c0.4-0.4,0.6-0.9,0.6-1.4c0-1.1-0.9-1.9-1.9-1.9c-0.5,0-0.9,0.2-1.2,0.4 L33.6,32.5z";
+    /*-fx-background-color: #f19b4c;*/
+    -fx-background-color: gray;
+}
+#avatar {
+    -fx-pref-height: 30;
+    -fx-pref-width: 30;
+}
+#chat-field {
+    -fx-background-radius: 20;
+}
+#send-button-image {
+    -height: 20;
+    -width: 25;
+
+    -fx-min-height: -height;
+    -fx-min-width: -width;
+    -fx-max-height: -height;
+    -fx-max-width: -width;
+
+    -fx-shape: "M21.66,12a2,2,0,0,1-1.14,1.81L5.87,20.75A2.08,2.08,0,0,1,5,21a2,2,0,0,1-1.82-2.82L5.46,13H11a1,1,0,0,0,0-2H5.46L3.18,5.87A2,2,0,0,1,5.86,3.25h0l14.65,6.94A2,2,0,0,1,21.66,12Z";
+    -fx-background-color: white;
+}
+#send-button {
+    -fx-background-color:derive(#31bcf3, -10%);
+    -fx-background-radius: 20;
+}
